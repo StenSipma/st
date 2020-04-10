@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Simple Terminal
+GenericName=Terminal
+Comment=The Suckless Simple Terminal
+Exec=st -t "Simple Terminal"
+Terminal=false
+Type=Application
+Encoding=UTF-8
+Icon=utilities-terminal
+Categories=System;TerminalEmulator
+Keywords=shell;prompt;command;commandline;cmd;
+
