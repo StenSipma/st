@@ -11,23 +11,26 @@ TODO
 Applied in the following order
 1. xresources: Success
 2. clipboard: Success
-5. scrollback
-   a) normal: Success
-   b) mouse: Success
-
-   c) mouse-altscreen
-   d) mouse-increment
-
-3. copyurl:
-   Some Issues (maybe due to patch being for 8.0.1 ?) Minor Intervention needed.
-4. desktopentry:
+3. desktopentry:
    - Patch with -R option. (or accept it in the prompt)
    - Add a st.desktop file yourself
+4. scrollback
+   a) normal: Success
+   b) mouse: Success
+   c) mouse-altscreen: Success
+   d) mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mkeys`
 
 
-Applied:
-To Do:
-- Scrollback
-- Xresources
+
+####Applied:
+- Xresources compatibility
+- Primary Cliboard Usage 
+	Ctrl+Shift c/v
+- Scrollback 
+	Mouse or Shift PageUp/PageDown
+- Desktopentry 
+	With custom st.desktop file
+
+####To Do:
 - Alpha
-- Clipboard
+- Copyurl: Some Issues (maybe due to patch being for 8.0.1 ?) Minor Intervention needed.
