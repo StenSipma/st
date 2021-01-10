@@ -18,11 +18,10 @@ Applied in the following order
    - normal: Success
    - mouse: Success
    - mouse-altscreen: Success
-   - mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mshortcuts`
+   - mouse-increment: Manual Intervention due to altscreen.  
+   Just change the `1` to `mousescrollincrement` in `mshortcuts`
    - These 4 are combined into: `patches/st-scrollback-0.8.4-complete.diff` patch
-5. font2: Application Success
-
-
+5. font2: Success
 
 
 ### Applied:
@@ -34,7 +33,10 @@ Applied in the following order
 - Desktopentry 
 	With custom st.desktop file
 - font2
-        Adds fallback font, probably useful for emoji's ?
+        Adds a fallback font, which you can point to an Emoji font. 
+        (i.e. Google Color Emoji)
+        Does need a patch for libxft form AUR 
+        [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/)
 
 ### To Do:
 - Alpha
