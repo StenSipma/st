@@ -21,6 +21,7 @@ Applied in the following order
    - mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mshortcuts`
    - These 4 are combined into: `patches/st-scrollback-0.8.4-complete.diff` patch
 5. font2
+   Requires manual patches as described [here](https://aur.archlinux.org/packages/st/#comment-740144).
 
 
 
