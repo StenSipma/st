@@ -18,7 +18,9 @@ Applied in the following order
    - normal: Success
    - mouse: Success
    - mouse-altscreen: Success
-   - mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mkeys`
+   - mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mshortcuts`
+   - These 4 are combined into: `patches/st-scrollback-0.8.4-complete.diff` patch
+5. font2
 
 
 
