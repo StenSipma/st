@@ -2,7 +2,7 @@
 Heavily Work In Progress!
 
 ## Version
-st 0.8.2
+st 0.8.4
 
 ## Features
 TODO
@@ -15,14 +15,16 @@ Applied in the following order
    - Patch with -R option. (or accept it in the prompt)
    - Add a st.desktop file yourself
 4. scrollback
-   a) normal: Success
-   b) mouse: Success
-   c) mouse-altscreen: Success
-   d) mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mkeys`
+   - normal: Success
+   - mouse: Success
+   - mouse-altscreen: Success
+   - mouse-increment: Manual Intervention due to altscreen.  
+   Just change the `1` to `mousescrollincrement` in `mshortcuts`
+   - These 4 are combined into: `patches/st-scrollback-0.8.4-complete.diff` patch
+5. font2: Success
 
 
-
-####Applied:
+### Applied:
 - Xresources compatibility
 - Primary Cliboard Usage 
 	Ctrl+Shift c/v
@@ -30,7 +32,12 @@ Applied in the following order
 	Mouse or Shift PageUp/PageDown
 - Desktopentry 
 	With custom st.desktop file
+- font2
+        Adds a fallback font, which you can point to an Emoji font. 
+        (i.e. Google Color Emoji)
+        Does need a patch for libxft form AUR 
+        [libxft-bgra](https://aur.archlinux.org/packages/libxft-bgra/)
 
-####To Do:
+### To Do:
 - Alpha
 - Copyurl: Some Issues (maybe due to patch being for 8.0.1 ?) Minor Intervention needed.
