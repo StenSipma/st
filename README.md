@@ -22,7 +22,7 @@ Applied in the following order
 
 
 
-####Applied:
+### Applied:
 - Xresources compatibility
 - Primary Cliboard Usage 
 	Ctrl+Shift c/v
@@ -31,6 +31,6 @@ Applied in the following order
 - Desktopentry 
 	With custom st.desktop file
 
-####To Do:
+### To Do:
 - Alpha
 - Copyurl: Some Issues (maybe due to patch being for 8.0.1 ?) Minor Intervention needed.
