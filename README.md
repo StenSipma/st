@@ -2,7 +2,7 @@
 Heavily Work In Progress!
 
 ## Version
-st 0.8.2
+st 0.8.4
 
 ## Features
 TODO
@@ -15,10 +15,10 @@ Applied in the following order
    - Patch with -R option. (or accept it in the prompt)
    - Add a st.desktop file yourself
 4. scrollback
-   a) normal: Success
-   b) mouse: Success
-   c) mouse-altscreen: Success
-   d) mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mkeys`
+   - normal: Success
+   - mouse: Success
+   - mouse-altscreen: Success
+   - mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mkeys`
 
 
 
