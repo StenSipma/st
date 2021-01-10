@@ -20,8 +20,8 @@ Applied in the following order
    - mouse-altscreen: Success
    - mouse-increment: Manual Intervention due to altscreen.  Just change the `1` to `mousescrollincrement` in `mshortcuts`
    - These 4 are combined into: `patches/st-scrollback-0.8.4-complete.diff` patch
-5. font2
-   Requires manual patches as described [here](https://aur.archlinux.org/packages/st/#comment-740144).
+5. font2: Application Success
+
 
 
 
@@ -33,6 +33,8 @@ Applied in the following order
 	Mouse or Shift PageUp/PageDown
 - Desktopentry 
 	With custom st.desktop file
+- font2
+        Adds fallback font, probably useful for emoji's ?
 
 ### To Do:
 - Alpha
